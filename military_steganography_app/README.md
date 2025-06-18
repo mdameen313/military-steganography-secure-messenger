@@ -4,16 +4,16 @@ A Streamlit web application that allows secure communication by hiding encrypted
 
 ---
 
-## 🚀 Features
+## Features
 
-- 🔐 AES Encryption using strong auto-generated keys.
-- 🖼️ Embeds encrypted text inside an image using LSB (Least Significant Bit) technique.
-- 📤 Sender shares the stego image + secure key.
-- 📥 Receiver uploads stego image + key to reveal original message.
+-  AES Encryption using strong auto-generated keys.
+-  Embeds encrypted text inside an image using LSB (Least Significant Bit) technique.
+-  Sender shares the stego image + secure key.
+-  Receiver uploads stego image + key to reveal original message.
 
 ---
 
-## 📦 Requirements
+##  Requirements
 
 Install dependencies using pip:
 
@@ -23,7 +23,7 @@ pip install streamlit pillow cryptography
 
 ---
 
-## 🧠 How it Works
+##  How it Works
 
 1. **Send Message**
     - Upload any image.
@@ -38,7 +38,7 @@ pip install streamlit pillow cryptography
 
 ---
 
-## ▶️ Run Locally
+## ▶ Run Locally
 
 ```bash
 streamlit run app.py
@@ -46,42 +46,6 @@ streamlit run app.py
 
 ---
 
-## 💻 Upload to GitHub
-
-1. Create a new repository on [GitHub](https://github.com/new)
-2. Clone it:
-    ```bash
-    git clone https://github.com/your-username/military-steganography-app.git
-    cd military-steganography-app
-    ```
-3. Add project files:
-    ```bash
-    cp path/to/app.py .
-    echo "streamlit\npillow\ncryptography" > requirements.txt
-    ```
-4. Commit and push:
-    ```bash
-    git add .
-    git commit -m "Initial commit"
-    git push origin main
-    ```
-
----
-
-## 🌐 Deploy Online (Streamlit Cloud)
-
-1. Go to [Streamlit Cloud](https://streamlit.io/cloud)
-2. Click **New App**
-3. Select your GitHub repo
-4. Set `app.py` as the main file
-5. Deploy and share the app link ✅
-
----
-
-## 📜 License
-MIT License
-
----
 
 ## 🤝 Credits
 Developed by [Your Name] for Cybersecurity Project, 2025.
